@@ -3,7 +3,7 @@ import OptionPage
  from './OptionPage';
  import OptionsData from './OptionsData';
 import { useNavigate } from 'react-router-dom';
-
+//A file that will handle the rendering of the divs containing the options to be selected
 
 const OptionLinkPage = (props) => {
     const infoArray = OptionsData;
