@@ -29,4 +29,12 @@ export default[
         "url":"Money.png",
         'textValue':'ZIP IT TRANSFER'
     }
+
+    ,
+    {
+        "id":5,
+        "itemName":"Bills",
+        "url":"paying.webp",
+        "text":"Bills"
+    }
 ]

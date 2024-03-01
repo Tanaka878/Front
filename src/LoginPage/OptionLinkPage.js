@@ -37,6 +37,8 @@ const OptionLinkPage = (props) => {
       navigate('/ZIPIT')
     }else if(itemId===1){
       navigate('/RequestBalance')
+    }else if(itemId===5){
+      navigate('/PayBills')
     }
   }
 

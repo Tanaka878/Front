@@ -8,6 +8,7 @@ import BuyAirTime from './OptionsRouting/BuyAirTime';
 import InterBankTransfer from './OptionsRouting/InterBankTransfer';
 import RequestBalance from './OptionsRouting/RequestBalance';
 import NewUser from './LoginPage/NewUser';
+import PayBills from './OptionsRouting/PayBills';
 
 function App() {
 
@@ -63,6 +64,9 @@ function App() {
          bal={Math.trunc(userDetails.AccBalance)} AccountHolder={userDetails.AccountHolder}/>}/>
 
          <Route exact path='/newUser' element={<NewUser/>}/>
+
+         <Route exact path='/PayBills' element={<PayBills name={userDetails.name}
+         bal={Math.trunc(userDetails.AccBalance)} AccountHolder={userDetails.AccountHolder}/>} />
          
         </Routes>
       </Router>

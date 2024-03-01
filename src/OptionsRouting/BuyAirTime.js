@@ -90,7 +90,7 @@ const BuyAirTime = (props) => {
       nav('/optionPage')
 
     }else{
-      console.log('The receiver details is empty')
+      console.log('The receiver details empty')
     }
 
   }
@@ -107,10 +107,11 @@ const BuyAirTime = (props) => {
     
 
         <nav className='feesHeader'>
-          <small>Account Holder :{props.name}</small>
-          <small>Account NUmber : {}</small>
-          <hr></hr>
-          <small> Remaining Balance : {props.bal}</small>
+          <small>ACCOUNT HOLDER :{props.name}</small>
+          
+          <small>ACCOUNT NUMBER : {props.AccountHolder}</small>
+         
+          <small> REMAINING BALANCE : {props.bal}</small>
         </nav>
         
         

@@ -27,6 +27,7 @@ code {
   box-sizing: border-box;
   box-shadow: 5px 5px 5px;
   margin-bottom: 17px;
+  border-radius:20px;
  
 }
 
@@ -42,10 +43,12 @@ code {
   background-color: rgb(29, 19, 39);
   color: white;
   height: 50px;
-  display: flex;
+  display: grid;
+  font-style: italic;
+  font-weight: 600;
 }
 
-.feesSubmitForm{
+.feesSubmitForm, payBills{
   font-size: large;
   justify-content: center;
   row-gap: 200px;
