@@ -5,7 +5,7 @@ export default[
         "itemName":"balanceRequest",
         "val":true,
         'url':'balance.png',
-        'textValue':'BALANCE'
+        'textValue':'Bank Statements'
     },
 
     {
@@ -35,6 +35,6 @@ export default[
         "id":5,
         "itemName":"Bills",
         "url":"paying.webp",
-        "text":"Bills"
+        "textValue":"Bill Payments"
     }
 ]

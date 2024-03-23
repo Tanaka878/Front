@@ -94,3 +94,16 @@ feesNav{
   justify-content: center;
 
 }
+
+.newUser{
+  padding: 20px;
+  padding-right: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px; /* Add spacing between each form group */
+
+  font-size: large;
+  font-family:sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}

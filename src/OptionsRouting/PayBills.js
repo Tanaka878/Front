@@ -2,6 +2,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react'
 import BillImage from './Images/paying.webp'
+import { Link } from 'react-router-dom';
 
 const PayBills = (props) => {
     // amount in the account before transaction
@@ -102,6 +103,8 @@ const PayBills = (props) => {
 
             <button className='payBills'>Transact</button>
         </form>
+
+        <Link to={'/OptionPage'}>Home Page</Link>
 
       
     </div>

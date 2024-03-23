@@ -10,6 +10,8 @@ const OptionPage = (props) => {
       
       <img
       src={`./Images/${props.i}`}
+      height={100}
+      width={100}
       />
 
       <h2>{props.text}</h2>
