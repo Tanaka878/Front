@@ -8,7 +8,8 @@ const NewUser = () => {
     email:"",
     pin:"",
     confirmPin:"",
-    date:""
+    date:"",
+    checked:false
 
   })
 
